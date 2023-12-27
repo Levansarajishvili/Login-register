@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LOGO</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <a href="#" class="login-nav-btn">Login</a>
+            </nav>
+        </header>
+
+        <div class="form-box">
+            <span class="close-icon">
+                <img src="./MaterialSymbolsCloseSmallOutline.svg" alt="">
+            </span>
+            <form class="login-form">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <img src="./MaterialSymbolsMailOutline.svg" alt="">
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                    <img src="./MaterialSymbolsLockOutline.svg" alt="">
+                </div>
+                <div class="checkbox">
+                    <span>
+                        <input type="checkbox" id="login-checkbox">
+                        <label for="login-checkbox">Remember Me</label>
+                    </span>
+                    <h5>Forget password?</h5>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="#" class="register-btn">Register</a></p>
+                </div>
+            </form>
+            <form class="register-form">
+                <h1>Registration</h1>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                    <img src="./MaterialSymbolsPerson.svg" alt="">
+                </div>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Email</label>
+                    <img src="./MaterialSymbolsMailOutline.svg" alt="">
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="register-checkbox">
+                    <label for="register-checkbox">I agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <div class="login-register">
+                    <p>Already have an account? <a href="#" class="login-btn">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
